@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -14,9 +11,7 @@
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+
         <nav>
             <a href="#aboutme" data-descr="My Biography">About</a>
             <a href="#portfolio" data-descr="A Catch All for various projects">Portfolio</a>
@@ -24,7 +19,7 @@
         </nav>
 
         <section id="headshot">
-            <h2>Jacob Daniel Parris</h2>
+            <h2>Jacob Parris | Development Portfolio</h2>
                 <div class="card">
 
                     <img src="./assets/images/IMG_2877.jpg" alt="A picture of me from a few years ago, needs updating">
@@ -34,11 +29,61 @@
 
         <section id="aboutme">
             <h2>About Me</h2>
+                <article>
                 <div class="card">
 
-                    <p>Lorem ipsum dolor sit amet.</p>>
+                    <p>My name is Jacob Parris and I am a maker who has begun my career with a background in photography,
+                         film, and television. Having a creative eye and having run my own successful furniture company 
+                         has led me towards my future in coding and specifically web development. </p>
 
                     </div>
+                </article>
+        </section>
+
+        <section id="portfolio">
+            <h2>Applications Portfolio</h2>
+            <article id="applications">
+            <div class="card">
+                <h3>Application Placeholder 1</h3>
+                <img src="./assets/images/_MG_9447.jpg" alt="A picture of an orange cat">
+            </div>
+            <div class="card">
+                <h3>Application Placeholder 1</h3>
+                <img src="./assets/images/IMG_5130-Pano.jpg" alt="A panoramic view of New York">
+            </div>
+            <div class="card">
+                <h3>Application Placeholder 1</h3>
+                <img src="./assets/images/_MG_9438.jpg" alt="A picture of a grey cat">
+            </div>
+            </article>
+        </section>
+        
+        <section id="contactme">
+            <article>
+            <form>
+                <h2>Contact Me!</h2>
+                <p>
+                    <label for="contactname">Your Name:</label>
+                    <input id="contactname" type="text" placeholder="First" />
+                </p>
+                <p>
+                    <label for="contactemail">Your E-Mail:</label>
+                    <input id="contactemail" type="text" placeholder="you@example.com" />
+                </p>
+                <p>
+                    <label for="comment">Comments</label>
+                    <input id="comment" type="text" placeholder="How'd I do?" />
+                </p>
+                <p>
+                    <button>Submit</button>
+                </p>
+                <p>
+
+                </p>
+            </form>
+        </article>
+
+
         </section>
 
         <script src="./assets/js/script.js" async defer></script>
